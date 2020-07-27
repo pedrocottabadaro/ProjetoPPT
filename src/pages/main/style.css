@@ -1,0 +1,121 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+.home-background{
+
+    background-color:#F0FFFF
+    ;
+    font-family: Arial, Helvetica, sans-serif;
+
+    height: auto;
+    width: 100%;
+    
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background-position: center;
+
+}
+
+.home-container{
+
+    width: 50vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    
+
+    flex-direction: column;
+}
+
+.title-container{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+#title1{
+    color: #FF52AB;
+    font-family: 'Orbitron', sans-serif;
+    
+
+}
+#title2{
+    color: #FCBD00;
+    padding: 0 15px 0 15px;
+    font-family: 'Orbitron', sans-serif;
+    
+
+}
+#title3{
+    font-family: 'Orbitron', sans-serif;
+
+    color: #04CAE5;
+}
+
+.player-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+
+.player1{
+    color: #00FF00 ;
+    padding-right: 30px;
+    font-family: 'Notable', sans-serif;
+
+}
+
+.hidden{
+    color: #CA0B00;
+}
+
+.selection-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.selection-container button{
+    height: 300px;
+    width: 300px;
+
+}
+
+#pedra{
+    border-style: none;
+    background-image: url("/assets/pedra.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FF52AB;
+}
+
+#papel{
+
+    border-style: none;
+    background-image: url("/assets/papel.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FCBD00;
+}
+
+#tesoura{
+    background-color:  #04CAE5;
+
+    background-image: url("/assets/tesoura.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-style: none;
+
+}
