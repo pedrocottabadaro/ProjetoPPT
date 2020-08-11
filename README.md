@@ -1,5 +1,5 @@
 # ProjetoPPT
-comandos iniciaisÇ
+comandos iniciais:
 npm install
 yarn start
 
