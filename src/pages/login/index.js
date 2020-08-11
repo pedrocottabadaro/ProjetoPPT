@@ -22,9 +22,7 @@ const LoginScreen = (props)=>{
         const username=document.querySelector('input#login-username').value;
         const usuario=carregarUsuario(valor);
 
-        console.log("batata");
-        console.log(usuario.password);
-        console.log("entrou");
+        
 
         if(usuario.password!==senha||usuario.username!==username){
             alert("USUARIO OU SENHA INCORRETA");
@@ -80,32 +78,20 @@ const LoginScreen = (props)=>{
 
                 <form >
                     <label htmlFor="username">Usuario</label>
-                    <input name="username" type="text" id="login-username"  required></input>
+                    <input name="username" type="text" id="login-username"  ></input>
 
                     <label htmlFor="password">Senha</label>
-                    <input name="password" type="password" id="login-password" required ></input>
+                    <input name="password" type="password" id="login-password"  ></input>
 
-                    <button onClick={()=>{
-
-                       
-                        autenticar();
-
-
-
-                    }}>teste</button>
                     
-                    <button value="submit">Enter</button>
+                    
+                    <Link to="/main" value="submit">Enter</Link>
 
                     
                 </form>
 
                 <div id="login-container-cadastrar">
-                    <button value="submit" id="login-cadastrar" onClick={(e)=>{
-
-                        e.preventDefault();
-                        window.location.href="/cadastro"
-
-                    }}>Cadastrar</button>
+                    <Link to="/cadastro" id="login-cadastrar">Cadastrar</Link>
                 </div>
 
 

@@ -68,10 +68,11 @@
 }
 
 
-.player1{
+.player{
     color: #00FF00 ;
     padding-right: 30px;
-    font-family: 'Notable', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+
 
 }
 
@@ -99,6 +100,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-color: #FF52AB;
+    cursor: pointer;
+    transition: 1000ms;
+}
+
+#pedra:hover{
+    filter: brightness(80%);
+    content: "";
+
 }
 
 #papel{
@@ -108,14 +117,76 @@
     background-position: center;
     background-repeat: no-repeat;
     background-color: #FCBD00;
+    transition: 1000ms;
+
+    cursor: pointer;
+    
+}
+
+#papel:hover{
+    filter: brightness(80%);
+    content: "";
+
 }
 
 #tesoura{
     background-color:  #04CAE5;
+    cursor: pointer;
+    transition: 1000ms;
 
     background-image: url("/assets/tesoura.png");
     background-position: center;
     background-repeat: no-repeat;
     border-style: none;
 
+}
+
+#tesoura:hover{
+    filter: brightness(80%);
+    content: "";
+
+}
+
+.select-weapon{
+    align-items: center;
+    justify-content: center;
+}
+
+.opacity{
+    opacity: 0.3;
+}
+
+.submit-container{
+    flex-direction: column;
+    margin-top: 30px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.submit-container button{
+    border: none;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(0, 138, 251);
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    
+}
+
+#botao-placar {
+    background-color:  rgb(38, 173, 38);;
+    margin-left: 10px;
+}
+
+#placar{
+    margin-top: 15px;
+    font-weight: bold;
 }

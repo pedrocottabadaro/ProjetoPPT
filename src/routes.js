@@ -13,7 +13,7 @@ const Routes=()=>(
         <Switch>
         <Route exact path="/" component={LoginScreen}/>
         <Route exact path="/cadastro" component={RegisterScreen}/>
-        <Route exact path="/home" component={Main}/>
+        <Route exact path="/main" component={Main}/>
 
 
         </Switch>
