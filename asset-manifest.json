@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ProjetoPPT/static/css/main.4e455880.chunk.css",
-    "main.js": "/ProjetoPPT/static/js/main.f3a2f992.chunk.js",
-    "main.js.map": "/ProjetoPPT/static/js/main.f3a2f992.chunk.js.map",
+    "main.js": "/ProjetoPPT/static/js/main.d19b9997.chunk.js",
+    "main.js.map": "/ProjetoPPT/static/js/main.d19b9997.chunk.js.map",
     "runtime-main.js": "/ProjetoPPT/static/js/runtime-main.bb805b58.js",
     "runtime-main.js.map": "/ProjetoPPT/static/js/runtime-main.bb805b58.js.map",
     "static/js/2.cbdb2b25.chunk.js": "/ProjetoPPT/static/js/2.cbdb2b25.chunk.js",
     "static/js/2.cbdb2b25.chunk.js.map": "/ProjetoPPT/static/js/2.cbdb2b25.chunk.js.map",
     "index.html": "/ProjetoPPT/index.html",
-    "precache-manifest.c4fd25d88a33b31acc763557c0b498ad.js": "/ProjetoPPT/precache-manifest.c4fd25d88a33b31acc763557c0b498ad.js",
+    "precache-manifest.7713e4a7f30182f677f53e7ecce3d6a5.js": "/ProjetoPPT/precache-manifest.7713e4a7f30182f677f53e7ecce3d6a5.js",
     "service-worker.js": "/ProjetoPPT/service-worker.js",
     "static/css/main.4e455880.chunk.css.map": "/ProjetoPPT/static/css/main.4e455880.chunk.css.map",
     "static/js/2.cbdb2b25.chunk.js.LICENSE.txt": "/ProjetoPPT/static/js/2.cbdb2b25.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.bb805b58.js",
     "static/js/2.cbdb2b25.chunk.js",
     "static/css/main.4e455880.chunk.css",
-    "static/js/main.f3a2f992.chunk.js"
+    "static/js/main.d19b9997.chunk.js"
   ]
 }

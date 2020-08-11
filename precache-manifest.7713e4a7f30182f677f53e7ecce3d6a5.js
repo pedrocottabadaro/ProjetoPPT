@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56dd49efada759dd8019969383fe4147",
+    "revision": "593798d79690159e6dd1f544fef6110b",
     "url": "/ProjetoPPT/index.html"
   },
   {
-    "revision": "1ebb0aac007ddc053e11",
+    "revision": "cadd85d7085acc604a46",
     "url": "/ProjetoPPT/static/css/main.4e455880.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ProjetoPPT/static/js/2.cbdb2b25.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1ebb0aac007ddc053e11",
-    "url": "/ProjetoPPT/static/js/main.f3a2f992.chunk.js"
+    "revision": "cadd85d7085acc604a46",
+    "url": "/ProjetoPPT/static/js/main.d19b9997.chunk.js"
   },
   {
     "revision": "663e7ebd654e412fe99c",
