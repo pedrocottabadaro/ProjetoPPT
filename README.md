@@ -1,6 +1,6 @@
 # ProjetoPPT
 comandos iniciais:
-npm install
+npm install,
 yarn start
 
 Website de pedra, papel e tesoura. Para praticar REACT
