@@ -11,12 +11,12 @@ const Routes=()=>(
 
     <BrowserRouter>
         <Switch>
-    /*
+    
         <Route exact path="/" component={LoginScreen}/>
         <Route exact path="/cadastro" component={RegisterScreen}/>
         <Route exact path="/main" component={Main}/>
-        */
-    <Route exact path="/" component={Main}/>
+        
+    
 
 
         </Switch>
